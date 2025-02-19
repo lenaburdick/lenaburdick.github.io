@@ -1,5 +1,7 @@
 title: Lena Burdick # your name (or website title) here
-logo: "/images/Granada-Headshot.jpeg?raw=true" # your photo (or logo) here
+# logo: "/images/Granada-Headshot.jpeg?raw=true" # your photo (or logo) here
+logo: "https://res.cloudinary.com/dpvvvp079/image/upload/c_fill,w_200,h_200,r_max/Granada-Headshot_doho4v.jpg
+" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a data-driven professional who is interested in projects that combine mathematical analysis with creative design.
   <br><br>
