@@ -5,7 +5,7 @@
 ### Sample Projects 
 
 [Microsoft Excel](/sample_page)
-<img src="(https://res.cloudinary.com/dpvvvp079/image/upload/v1740163224/Screenshot_2025-02-21_at_12.38.22_PM_ousfye.png)"/>
+<img src="images/NBC_Excel_Screenshot"/>
 
 ---
 [Tableau](/pdf/sample_presentation.pdf)
