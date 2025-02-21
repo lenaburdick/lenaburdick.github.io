@@ -5,7 +5,7 @@
 ### Sample Projects 
 
 [Microsoft Excel](/sample_page)
-<img src="images/NBC_Excel_Screenshot"/>
+<img src="images/NBC Excel Screenshot.png"/>
 
 ---
 [Tableau](/pdf/sample_presentation.pdf)
