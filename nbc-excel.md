@@ -1,32 +1,15 @@
 ## Microsoft Excel
 
-**Project description:** This project is a collection of data from four NBC TV shows: The office, 30 Rock, COmmunity, and Parks and Recreation.
+**Project description:** This project is a collection of data from four NBC TV shows: The office, 30 Rock, Community, and Parks and Recreation.
 
-![Static Badge](https://img.shields.io/badge/Download%20Excel%20Workbook?style=social&logo=expertsexchange&logoColor=white&logoSize=auto&labelColor=darkgreen&color=white&link=google.com)
+**Instructions:** Download the workbook below. If given the option, ensure it is a macro-enabled file (.xlsm). Click "Enable Macros" when prompted after opening. You can also browse the screenshots or video (coming soon) below.
 
+<a href="/uploads/your_file.xlsx" download>
+  <img src="/images/icons/Excel_Button.png" alt="Download Excel File" width="150" height="50">
+</a>
 
+### Sample Screenshots:
 
+<img src="images/NBC/Excel/NBC_Excel_MainPage.png"/>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="images/NBC/Excel/NBC_Excel_EpisodeList.png"/>
