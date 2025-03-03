@@ -5,7 +5,7 @@
 ### Sample Projects 
 ###### Explore the same dataset in Microsoft Excel, Airtable, and Tableau. 
 
-[Microsoft Excel](/sample_page)
+[Microsoft Excel](/nbc-excel)
 <img src="images/NBC Excel Screenshot.png"/>
 
 [Tableau](/pdf/sample_presentation.pdf)
