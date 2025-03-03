@@ -13,6 +13,11 @@
 [Microsoft Excel](<img src="images/NBC Excel Screenshot.png"/>)
 
 ---
+
+[![A screenshot of an Excel sheet featuring project descriptions and sample graphs](/images/NBC Excel Screenshot.png 'Excel Screenshot')](/sample_page)
+
+
+
 [Tableau](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
