@@ -8,9 +8,6 @@
   <img src="/images/icons/Excel_Button.png" alt="Download Excel File" width="150" height="50">
 </a>
 
-***
----
-___
 
 
 Workbook Guide:
@@ -27,6 +24,7 @@ This sheet gives users an overview of the workbook as a whole. It also functions
 <img src="images/NBC/Excel/NBC_Excel_MainPage.png"/>
 </details>
 
+---
 
 Episode List
 ------
@@ -37,7 +35,7 @@ This sheet features a table of every episode of each show. The table can be filt
 <img src="images/NBC/Excel/NBC_Excel_EpisodeList.png"/>
 </details>
 
-
+---
 
 Graphs
 ------
@@ -50,7 +48,7 @@ This sheet utilizes pivot tables and lookup tables to graph various metrics. A f
 <img src="images/NBC/Excel/NBC_Excel_Graphs.png"/>
 </details>
 
-
+---
 
 Color Values
 ------
@@ -260,7 +258,7 @@ End Sub
   
 </details>
 
-
+---
 
 Season Info
 ------
