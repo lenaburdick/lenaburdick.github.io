@@ -10,10 +10,13 @@
 
 
 
-# Workbook Guide:
+Workbook Guide:
+======
 
 
-## Introduction Page
+Introduction Page
+------
+
 This sheet gives users an overview of the workbook as a whole. It also functions as an index for skills utilized and formula types.
 
 <details>
@@ -22,7 +25,8 @@ This sheet gives users an overview of the workbook as a whole. It also functions
 </details>
 
 
-## Episode List
+Episode List
+------
 This sheet features a table of every episode of each show. The table can be filtered and sorted by different metrics. Some cells utilize conditional formatting to quickly identify information about air time, ratings, and schedule. All other cells are colors based on the show and season– these colors can be specified using the "Color Values" tool.
 
 <details>
@@ -31,7 +35,9 @@ This sheet features a table of every episode of each show. The table can be filt
 </details>
 
 
-## Graphs
+
+Graphs
+------
 This sheet utilizes pivot tables and lookup tables to graph various metrics. A future goal of this project is automatically matching the colors of TV shows in the legend with the colors specified in the "Color Values" tool.
 
 ![NBC_Excel_SampleGraphs](https://github.com/user-attachments/assets/ca2172da-a95f-4632-88f4-f5b6e647438c)
@@ -42,7 +48,9 @@ This sheet utilizes pivot tables and lookup tables to graph various metrics. A f
 </details>
 
 
-## Color Values
+
+Color Values
+------
 This tool gives users control over the colors used to identify shows & seasons in "Episode List". A future goal of this project is to connect this tool to the "Graphs" sheet, as well. Please note that this tool will only work in a macro-enabled workbook (see instructions at top of page for more details).
 
 ![NBC_Excel_ColorValues_Overview](https://github.com/user-attachments/assets/cc9b0d92-ea7f-417e-86b8-db41c846083d)
@@ -250,7 +258,9 @@ End Sub
 </details>
 
 
-## Season Info
+
+Season Info
+------
 
 Each show has its own sheet titled "[Show Name] Season Info". These data came from .csv files scraped from Wikipedia tables. Some data had to be cleaned and formatted for consistency.
 
