@@ -71,32 +71,32 @@ This tool gives users control over the colors used to identify shows & seasons i
   
 </details>
 
-    <details>
+<details>
     <summary> Experimental Formatting </summary>
 
-    <img width="1464" alt="NBC_Excel_ColorValues_Expanded" src="https://github.com/user-attachments/assets/772844d9-00c1-4c8a-983e-f63c8b685c9b" />
+  <img width="1464" alt="NBC_Excel_ColorValues_Expanded" src="https://github.com/user-attachments/assets/772844d9-00c1-4c8a-983e-f63c8b685c9b" />
 
     This tool functions using a combination of in-sheet formulas and 3 VBA macros.
 
-    ### Cells A9:D12
+  ### Cells A9:D12
 
     First, users enter the show names in cells A9:A12. Then, the following formula in cells B9:B12 find the appropriate number of seasons from the "Season Info" sheets.
 
-    ```javascript
-    =MAX(INDIRECT("'" & 'Color Values'!A9 & " Season Info'!C:C"))
-    ```
+  ```javascript
+  =MAX(INDIRECT("'" & 'Color Values'!A9 & " Season Info'!C:C"))
+  ```
 
     Then, users use the bucket tool to select the first and last colors of the gradient for each show in cells C9:D12.
 
     Pressing the button "Generate Gradient" runs two macros in order: FindHEXCode and PrintGradient.
 
-    ### Macro 1: FindHEXCode
+  ### Macro 1: FindHEXCode
     Finds the HEX codes for the colors in cells C9:D12. Then, prints the respective HEX codes in each cell.
 
-    <details>
+  <details>
     <summary> Expand Code </summary>
   
-    ```javascript
+  ```javascript
     Sub FindHEXCode()
     Set r = Range("C9:D12")
     Dim hexColor As String
@@ -112,8 +112,9 @@ This tool gives users control over the colors used to identify shows & seasons i
     Next i
 
     Next h
-    ```
-    </details>
+  ```
+ </details>
+</details>
 
 
 
