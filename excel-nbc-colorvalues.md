@@ -21,9 +21,6 @@ Pressing the button "Generate Gradient" runs two macros in order: FindHEXCode an
 ### Macro 1: FindHEXCode
 Finds the HEX codes for the colors in cells C9:D12. Then, prints the respective HEX codes in each cell.
 
-<details>
-<summary> Expand Macro 1 Code </summary>
-  
 ```javascript
 Sub FindHEXCode()
 Set r = Range("C9:D12")
@@ -41,7 +38,6 @@ Next i
 
 Next h
 ```
-</details>
 
 ### Cells E9:M12
 
@@ -84,8 +80,6 @@ These cells use a formula to generate HEX codes based on the number of seasons, 
 ### Macro 2: FindHEXCode
 Finds the HEX codes in cells P9:Z12, then changes the background colors of those cells to match their respective HEX codes.
 
-<details>
-<summary> Expand Macro 2 Code </summary>
 
 ```javascript
 Sub PrintGradient()
@@ -119,7 +113,6 @@ bm_Safe_Exit:
     Application.EnableEvents = True ' Re-enable event handling
 End Sub••••ˇˇˇˇ
 ```
-</details>
 
 ### Applying Gradient to "Episode List"
 Once users have generated their gradient, they can click the button "Apply to Episode List". This will run the Macro "ApplyEpisodeColors".
@@ -186,3 +179,5 @@ Sub ApplyEpisodeColors()
 End Sub
 
 ```
+
+</details>
