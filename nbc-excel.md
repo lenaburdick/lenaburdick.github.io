@@ -1,15 +1,14 @@
 # Microsoft Excel
 
-**Project description:** <br/>
-This project is a collection of data from four NBC TV shows: The office, 30 Rock, Community, and Parks and Recreation.
+**Project description:**  
+This project is a collection of data from four NBC TV shows: The office, 30 Rock, Community, and Parks and Recreation.  
 
-**Download the workbook here:**
+**Download the workbook here:**  
 
 <a href="/uploads/your_file.xlsx" download>
   <img src="/images/icons/Excel_Button.png" alt="Download Excel File" width="150" height="50">
-</a> <br/>
+</a> 
 
-<br/>
 
 > [!IMPORTANT]
 > If given the option, ensure it is a macro-enabled file (.xlsm). Click "Enable Macros" when prompted after opening. You can also browse the screenshots or video (coming soon) below.
