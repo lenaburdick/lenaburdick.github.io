@@ -119,8 +119,6 @@ Once users have generated their gradient, they can click the button "Apply to Ep
 
 ### Macro 3: Apply Episode Colors
 Matches the TV show and season for every row in the "Episode List" sheet to its HEX code in the table above. Then, it changes the background color of that row to match the HEX code. The show title (column A) will always be the same as the "End Gradient" color, regardless of season. This macro does not override the conditional formatting used in the "Epsode List" sheet.
-<details>
-<summary>Expand Macro 3 Code</summary>
 
 ```javascript
 Sub ApplyEpisodeColors()
@@ -180,4 +178,3 @@ End Sub
 
 ```
 
-</details>
