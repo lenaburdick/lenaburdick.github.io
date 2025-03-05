@@ -1,12 +1,18 @@
 # Microsoft Excel
 
-**Project description:** This project is a collection of data from four NBC TV shows: The office, 30 Rock, Community, and Parks and Recreation.
+**Project description:** <br/>
+This project is a collection of data from four NBC TV shows: The office, 30 Rock, Community, and Parks and Recreation.
 
-**Instructions:** Download the workbook below. If given the option, ensure it is a macro-enabled file (.xlsm). Click "Enable Macros" when prompted after opening. You can also browse the screenshots or video (coming soon) below.
+**Download the workbook here:**
 
 <a href="/uploads/your_file.xlsx" download>
   <img src="/images/icons/Excel_Button.png" alt="Download Excel File" width="150" height="50">
-</a>
+</a> <br/>
+
+<br/>
+
+> [!IMPORTANT]
+> If given the option, ensure it is a macro-enabled file (.xlsm). Click "Enable Macros" when prompted after opening. You can also browse the screenshots or video (coming soon) below.
 
 
 
@@ -64,6 +70,52 @@ This tool gives users control over the colors used to identify shows & seasons i
 
   
 </details>
+
+    <details>
+    <summary> Experimental Formatting </summary>
+
+    <img width="1464" alt="NBC_Excel_ColorValues_Expanded" src="https://github.com/user-attachments/assets/772844d9-00c1-4c8a-983e-f63c8b685c9b" />
+
+    This tool functions using a combination of in-sheet formulas and 3 VBA macros.
+
+    ### Cells A9:D12
+
+    First, users enter the show names in cells A9:A12. Then, the following formula in cells B9:B12 find the appropriate number of seasons from the "Season Info" sheets.
+
+    ```javascript
+    =MAX(INDIRECT("'" & 'Color Values'!A9 & " Season Info'!C:C"))
+    ```
+
+    Then, users use the bucket tool to select the first and last colors of the gradient for each show in cells C9:D12.
+
+    Pressing the button "Generate Gradient" runs two macros in order: FindHEXCode and PrintGradient.
+
+    ### Macro 1: FindHEXCode
+    Finds the HEX codes for the colors in cells C9:D12. Then, prints the respective HEX codes in each cell.
+
+    <details>
+    <summary> Expand Code </summary>
+  
+    ```javascript
+    Sub FindHEXCode()
+    Set r = Range("C9:D12")
+    Dim hexColor As String
+    Dim i As Long
+    Dim h As Long
+
+    For h = 1 To r.Columns.Count
+
+    For i = 1 To r.Rows.Count
+      r.Cells(i, h).Activate
+      hexColor = "#" + Right("000000" & Hex(ActiveCell.Interior.Color), 6)
+      ActiveCell = hexColor
+    Next i
+
+    Next h
+    ```
+    </details>
+
+
 
 <details>
 <summary> Technical Details</summary>
