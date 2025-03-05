@@ -1,7 +1,7 @@
 # Microsoft Excel
 
-**Project description:**  
-This project is a collection of data from four NBC TV shows: The office, 30 Rock, Community, and Parks and Recreation.  
+## Project description:  
+This project is a collection of data from four NBC TV shows: The Office, 30 Rock, Community, and Parks and Recreation.  
 
 **Download the workbook here:**  
 
