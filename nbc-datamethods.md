@@ -140,18 +140,106 @@ My early Wikipedia data in Excel gave me information on the writers and director
 
 ## Finding Writer/Director IMDBs, Wikipedias, and Headshots.
 
-Again, a Python script was used to find IMDB links, headshot links, and Wikipedia pages (when available) for each writer/director.
+Again, a Python script was used to find Wikipedia links and headshots (when available) for each writer/director.
 
-I created a .csv file with the columns "Name," "IMDB Link," "IMDB Headshot," and "Wikipedia Link." I copy and pasted the list of writers/directors from Airtable into the first column. Then, I ran the following script to scrape the IMDB and Wikipedia pages.
+I downloaded a .csv file of all the writers/directors from Airtable. Then, I ran the following script to scrape the IMDB and Wikipedia pages.
 
 #### Python Script:
 
 ```python
 
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+import time
+
+def get_wikipedia_info(person_name):
+    """
+    Searches Wikipedia for a person and extracts:
+    - Wikipedia Page Link
+    - Headshot Image URL (if available)
+    """
+    search_url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch={person_name.replace(' ', '+')}"
+    
+    response = requests.get(search_url)
+    if response.status_code != 200:
+        return "Not Found", "Not Found"
+
+    data = response.json()
+    search_results = data.get("query", {}).get("search", [])
+
+    if search_results:
+        wikipedia_page_title = search_results[0]["title"]
+        wikipedia_url = f"https://en.wikipedia.org/wiki/{wikipedia_page_title.replace(' ', '_')}"
+
+        # Try extracting headshot image
+        image_url = get_wikipedia_headshot(wikipedia_page_title)
+
+        return wikipedia_url, image_url
+
+    return "Not Found", "Not Found"
+
+def get_wikipedia_headshot(page_title):
+    """
+    Extracts the lead image (headshot) from a Wikipedia page.
+    """
+    media_url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&pithumbsize=500&titles={page_title}"
+    
+    response = requests.get(media_url)
+    if response.status_code != 200:
+        return "Not Found"
+
+    data = response.json()
+    pages = data.get("query", {}).get("pages", {})
+
+    for page_id, page_info in pages.items():
+        if "thumbnail" in page_info:
+            return page_info["thumbnail"]["source"]
+
+    return "Not Found"
+
+# Load CSV file
+csv_file = "/SampleFilePath/NBC_WritersDirectors.csv" # Change this to your actual file path  # Change this to your actual file path
+df = pd.read_csv(csv_file, dtype=str)
+
+# Ensure all relevant columns exist and are in string format
+for col in ["Wikipedia Link", "Wikipedia Headshot"]:
+    if col not in df.columns:
+        df[col] = ""
+    df[col] = df[col].astype(str)
+
+# Process first 5 names for testing
+for index, row in df.iterrows():
+    person_name = row["Name"]
+    print(f"Processing: {person_name}")
+
+    # Get Wikipedia info (Link & Headshot)
+wikipedia_link, wikipedia_headshot = get_wikipedia_info(person_name)
+    time.sleep(2)  # Pause to avoid excessive requests
+
+    # Update DataFrame
+    df.at[index, "Wikipedia Link"] = wikipedia_link
+    df.at[index, "Wikipedia Headshot"] = wikipedia_headshot
+
+# Save updated CSV
+output_file = "/SampleFilePath/NBC_WritersDirectors.csv" # Change this to your actual file path
+df.to_csv(output_file, index=False)
+print(f"\n✅ Data saved to {output_file}")
+
+
 ```
 
+
+
 ### Example
-> Sample Output document [LINK]
+> [**Sample Output Document**](/Uploads/NBC_WritersDirectors.csv)
+> [**Cleaned Output Document**](/Uploads/NBC_WritersDirectors_Cleaned.csv)
+
+
+This script uses Wikipedia's API to search based on name, then return the first result. Because of this, some of the links returned are not correct. For instance, a writer without their own Wikipedia page may appear by name in the Wikipedia page for a project ehy worked on. In this case, the script would return that link, since it is the first search result. Obviously incorrect data was removed from the set, and the remaining data was spot-checked.
+
+A future goal of this project is to find IMDB links and headshots for each writer/director. However, IMDB does not allow data scraping, and I had trouble getting a Python script to work correctly.
+
 
 
 
