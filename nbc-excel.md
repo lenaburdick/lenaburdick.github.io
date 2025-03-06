@@ -24,6 +24,8 @@ Introduction Page
 <img src="images/NBC/Excel/NBC_Excel_MainPage.png"/>
 </details>
 
+</br>
+
 This sheet gives users an overview of the workbook as a whole. It also functions as an index for skills utilized and formula types.
 
 
