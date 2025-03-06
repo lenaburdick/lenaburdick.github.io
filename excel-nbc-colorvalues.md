@@ -3,6 +3,9 @@
 
 This tool functions using a combination of in-sheet formulas and 3 VBA macros.
 
+![NBC_Excel_ColorValues_Overview](https://github.com/user-attachments/assets/cc9b0d92-ea7f-417e-86b8-db41c846083d)
+
+### Full Page Screenshot:
 <img width="1464" alt="NBC_Excel_ColorValues_Expanded" src="https://github.com/user-attachments/assets/772844d9-00c1-4c8a-983e-f63c8b685c9b" />
 
 
