@@ -34,7 +34,8 @@ Episode List
 <details>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_EpisodeList.png"/>
-</details>
+</details>  
+
 
 This sheet features a table of every episode of each show. The table can be filtered and sorted by different metrics. Some cells utilize conditional formatting to quickly identify information about air time, ratings, and schedule. All other cells are colors based on the show and season– these colors can be specified using the "Color Values" tool.
 
