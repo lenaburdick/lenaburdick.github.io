@@ -232,7 +232,7 @@ print(f"\n✅ Data saved to {output_file}")
 
 
 ### Example
-> [**Sample Output Document**](/Uploads/NBC_WritersDirectors.csv)
+> [**Sample Output Document**](/Uploads/NBC_WritersDirectors.csv)  
 > [**Cleaned Output Document**](/Uploads/NBC_WritersDirectors_Cleaned.csv)
 
 
