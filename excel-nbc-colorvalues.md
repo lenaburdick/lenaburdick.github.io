@@ -24,7 +24,7 @@ Pressing the button "Generate Gradient" runs two macros in order: FindHEXCode an
 ### Macro 1: FindHEXCode
 Finds the HEX codes for the colors in cells C9:D12. Then, prints the respective HEX codes in each cell.
 
-```javascript
+```vba
 Sub FindHEXCode()
 Set r = Range("C9:D12")
 Dim hexColor As String
@@ -47,18 +47,18 @@ Next h
 Once these HEX codes have been generated, formulas in cells E9:M12 split the HEX codes into their RGB values. For each red, green, and blue, a start value, end value, and increment value is found. Below, I will use cells E9:G9 as examples for each formula:
 
 **Start Red Value (E9):** Starting at digit 2, takes the next two digits of HEX code in column C and converts to the red component of the RGB value. Ex. #FBBACF –> FB –> 251
-```javascript
+```
 =TEXT(HEX2DEC(MID(C9,2,2)), "00")
 ```
 
 **End Red Value (F9):** Starting at digit 2, takes the next two digits of HEX code in column D and converts to the red component of the RGB value.
-```javascript
+```
 =TEXT(HEX2DEC(MID(D9,2,2)), "00")
 ```
 
 
 **Red Increment (G9):** Divides (End Red Value - Start Red Value) by the number of seasons and rounds to nearest integer. This will give us equally-spaced red values for each season of the show.
-```javascript
+```
 =ROUND((F9-E9)/B9,0)
 ```
 
@@ -67,7 +67,7 @@ Once these HEX codes have been generated, formulas in cells E9:M12 split the HEX
 These cells use a formula to generate HEX codes based on the number of seasons, the start values for each color, and the increment values for each color.
 
 **Example Cell (P9):**
-```javascript
+```
 =IF( P$8> $B9,
      "",
      "#" & IF(ISODD(LEN(DEC2HEX($E9+$G9*(P$8-1)))),
@@ -84,7 +84,7 @@ These cells use a formula to generate HEX codes based on the number of seasons, 
 Finds the HEX codes in cells P9:Z12, then changes the background colors of those cells to match their respective HEX codes.
 
 
-```javascript
+```vba
 Sub PrintGradient()
     Dim ws As Worksheet
     Dim rng As Range, cell As Range
@@ -123,7 +123,7 @@ Once users have generated their gradient, they can click the button "Apply to Ep
 ### Macro 3: Apply Episode Colors
 Matches the TV show and season for every row in the "Episode List" sheet to its HEX code in the table above. Then, it changes the background color of that row to match the HEX code. The show title (column A) will always be the same as the "End Gradient" color, regardless of season. This macro does not override the conditional formatting used in the "Epsode List" sheet.
 
-```javascript
+```vba
 Sub ApplyEpisodeColors()
     Dim wsEpisodes As Worksheet, wsColors As Worksheet
     Dim episodeRow As Range, colorRow As Range
