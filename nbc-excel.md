@@ -34,7 +34,7 @@ Episode List
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_EpisodeList.png"/>
 </details><br/>
-This sheet features a table of every episode of each show. The table can be filtered and sorted by different metrics. Some cells utilize conditional formatting to quickly identify information about air time, ratings, and schedule. All other cells are colors based on the show and season– these colors can be specified using the "Color Values" tool.
+This sheet features a table of every episode of each show. The table can be filtered and sorted by different metrics. Some cells utilize conditional formatting to quickly identify information about air time, ratings, and schedule. All other cells are colors based on the show and season– these colors can be specified using the "Color Values" tool. For more information on how this data was collected and prepared, see [Data Collection & Cleaning](/nbc-datamethods.md) <a href="/nbc-datamethods.md">Data Collection & Cleaning</a>
 
 
 ---
@@ -79,5 +79,6 @@ Season Info
 <img width="1415" alt="NBC_Excel_SeasonInfo" src="https://github.com/user-attachments/assets/c0a349b5-2586-4efb-82b5-cfc2fbfa79f9" />
   
 </details><br/>
-Each show has its own sheet titled "[Show Name] Season Info". These data came from .csv files scraped from Wikipedia tables. Some data had to be cleaned and formatted for consistency.
+Each show has its own sheet titled "[Show Name] Season Info". These data came from .csv files scraped from Wikipedia tables. Some data had to be cleaned and formatted for consistency. For more information on how this data was collected and prepared, see [Data Collection & Cleaning](/nbc-datamethods.md) <a href="/nbc-datamethods.md">Data Collection & Cleaning</a>.
+
 
