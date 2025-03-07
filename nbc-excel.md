@@ -22,7 +22,7 @@ Introduction Page
 <details>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_MainPage.png"/>
-</details>
+</details><br/><br/>
 
  
 
