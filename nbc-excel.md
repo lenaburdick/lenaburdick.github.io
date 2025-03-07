@@ -24,7 +24,6 @@ Introduction Page
 <img src="images/NBC/Excel/NBC_Excel_MainPage.png"/>
 </details><br/>
 
-
 This sheet gives users an overview of the workbook as a whole. It also functions as an index for skills utilized and formula types.
 
 
@@ -35,9 +34,7 @@ Episode List
 <details>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_EpisodeList.png"/>
-</details> 
-
- 
+</details><br/>
 
 
 This sheet features a table of every episode of each show. The table can be filtered and sorted by different metrics. Some cells utilize conditional formatting to quickly identify information about air time, ratings, and schedule. All other cells are colors based on the show and season– these colors can be specified using the "Color Values" tool.
@@ -50,9 +47,8 @@ Graphs
 <details>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_Graphs.png"/>
-</details>
+</details><br/>
 
- 
 
 This sheet utilizes pivot tables and lookup tables to graph various metrics. A future goal of this project is automatically matching the colors of TV shows in the legend with the colors specified in the "Color Values" tool.
 
@@ -64,17 +60,14 @@ This sheet utilizes pivot tables and lookup tables to graph various metrics. A f
 Color Values
 ------
 
-**Technical Details:** [Click Here](/excel-nbc-colorvalues.md) to explore the technical details of the Color Value Tool
+**Technical Details:** [Click Here](/excel-nbc-colorvalues.md) to explore the technical details of the Color Value Tool, including code for the VBA macros.
 
 <details>
 <summary> Full Page Screenshot</summary>
 
 <img width="911" alt="NBC_Excel_ColorValues_Main" src="https://github.com/user-attachments/assets/f5ba0ecb-a0bc-41e5-b15e-15649381275b" />
   
-</details>
-
- 
-
+</details><br/>
 
 This tool gives users control over the colors used to identify shows & seasons in "Episode List". A future goal of this project is to connect this tool to the "Graphs" sheet, as well. Please note that this tool will only work in a macro-enabled workbook (see instructions at top of page for more details).
 
@@ -91,9 +84,7 @@ Season Info
 
 <img width="1415" alt="NBC_Excel_SeasonInfo" src="https://github.com/user-attachments/assets/c0a349b5-2586-4efb-82b5-cfc2fbfa79f9" />
   
-</details>
-
- 
+</details><br/>
 
 Each show has its own sheet titled "[Show Name] Season Info". These data came from .csv files scraped from Wikipedia tables. Some data had to be cleaned and formatted for consistency.
 
