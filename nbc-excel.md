@@ -9,7 +9,7 @@ This project is a collection of data from four NBC TV shows: The Office, 30 Rock
   <img src="/images/icons/Excel_Button.png" alt="Download Excel File" width="150" height="50">
 </a> 
 
-If given the option, ensure it is a macro-enabled file (.xlsm). Click "Enable Macros" when prompted after opening. You can also browse the screenshots or video (coming soon) below.
+> If given the option, ensure it is a macro-enabled file (.xlsm). Click "Enable Macros" when prompted after opening. You can also browse the screenshots or video (coming soon) below.
 
 
 Workbook Guide:
