@@ -3,16 +3,15 @@
 ---
 
 ### Sample Projects 
-###### Explore the same dataset in Microsoft Excel, Airtable, and Tableau. 
+##### Explore the same dataset in Microsoft Excel, Airtable, and Tableau. 
 
-[![HomePage_NBC_DataCleaning](https://github.com/user-attachments/assets/8ba2bd56-1875-4393-b2a6-b48b21ca5b37)](/nbc-datamethods)
-[![HomePage_NBC_Excel](https://github.com/user-attachments/assets/f46199ac-bfb7-483f-9112-fbd33026b036)](/nbc-excel)
+[<img src ="/images/HomePage_NBC_DataCleaning.png">](/nbc-datamethods)
+[<img src ="/images/HomePage_NBC_Excel.png">](/nbc-excel)
+<img src ="/images/Homepage_NBC_Airtable.png">
 
-[Tableau](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Airtable](http://example.com/)
+[Tableau](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
