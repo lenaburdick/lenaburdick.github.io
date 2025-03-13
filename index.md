@@ -7,7 +7,7 @@
 
 [<img src ="/images/HomePage_NBC_DataCleaning.png">](/nbc-datamethods)
 [<img src ="/images/HomePage_NBC_Excel.png">](/nbc-excel)
-<img src ="/images/Homepage_NBC_Airtable.png">
+[<img src ="/images/Homepage_NBC_Airtable.png">](/nbc-airtable)
 
 
 ---
