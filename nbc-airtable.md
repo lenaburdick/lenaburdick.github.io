@@ -31,31 +31,30 @@ Some pages can be seen publically (no account required), but much of the data is
   <img src="/images/icons/Airtable_Button2.png" alt="See Public Airtable Dashboard" width="150" height="50">
 </a> 
 
-## Dashboards
+# Explore the Dashboards
 
-One of Airtable's main strengths is the ability to create user-friendly interfaces. These allow users to interact with (and even update) data from custom pages tailored to their needs.
+One of Airtable's main strengths is the ability to create user-friendly interfaces. These allow users to interact with (and even update) data from custom pages tailored to their needs. Here are some sample pages from this interface.
 
-Below, I will highlight some sample pages from this interface.
-
-### Menu
+## Menu
 <img width="163" alt="NBC_Airtable_Menu" src="https://github.com/user-attachments/assets/19aa29aa-d9a5-4efc-aad1-0d4f18682fe9" />
 
 
-### Introduction to Base
-**Page Type:** Dashboard <br/> <br/>
-<img width="540" alt="NBC_Airtable_MainPage" src="https://github.com/user-attachments/assets/c5795baa-0bbd-49a4-a784-74cf8366809f" />
+## Introduction to Base
+<img width="540" alt="NBC_Airtable_MainPage" src="https://github.com/user-attachments/assets/c5795baa-0bbd-49a4-a784-74cf8366809f" /> <br/> <br/>
 
-#### Featured Elements <br/>
-**Buttons** <br/>
+**Page Type:** Dashboard <br/> <br/>
+
+### Featured Elements <br/>
+> **Buttons** <br/>
 > Buttons allow users to navigate to other pages in the interface, open a record creation form, go to external URLs, or go to URLs associated with the data (such as an episode's Wikipedia page).
 
-**Numbers** <br/>
+> **Numbers** <br/>
 > Numbers summarize data linked to a record by finding a sum, average, maximum, count, or other measure of that data.
 
-**Charts** <br/>
+> **Charts** <br/>
 > This bar chart shows the average views-per-episode received by each TV show per season. The overlapping line graph shows the maximum number of views any individual episode received that season.
 
-**Gallery View** <br/>
+> **Gallery View** <br/>
 > Gallery views summarize records through a primary image field (in this case, the show logo), with other selected data displayed below. To avoid having too many fields, I created a field called "Basic Info Summary" that summarizes the number of seasons and episodes in a given show. The cards in this gallery view show the fields "Basic Info Summary" and "IMDB Description".
 
 Formula for the field "Basic Info Summary"
@@ -96,4 +95,85 @@ Name & " is a " & {Years} &
 
 **Grouping, Filtering, Sorting, and Searching** <br/>
 > Users can apply their own custom grouping, sorting, and filtering to the data. Users can also search for an episode directly by title. This makes this view the most useful for finding specific episodes quickly.
+
+
+### Lena's Reviews
+**Page Type:** Gallergy
+<img width="910" alt="NBC_Airtable_LenaReviews" src="https://github.com/user-attachments/assets/f721b370-0a37-48c6-b739-ea7f35904798" />
+
+#### Featured Elements <br/>
+**Gallery View** <br/>
+> Gallery views summarize records through a primary image field (in this case, the DVD cover), with other selected data displayed below. This view is filtered so that it only shows episodes I have rated or reviewed. Users can click on an episode to open the details page, where they can see information and statistics about an episode or edit ratings/reviews in-line.
+
+
+### Season Timeline <br/>
+**Page Type:** Timeline
+
+<img width="707" alt="NBC_Airtable_SeasonTimeline" src="https://github.com/user-attachments/assets/0c8addd5-59f9-4412-8cfc-2477fa480960" />
+
+#### Featured Elements <br/>
+**Timelines** <br/>
+> Timelines allow Airtable users to visualize events or periods of time using a start and end date. For more complex timelines– such as production schedules where one task may depend on the completion of another– ![Gantt Charts](https://www.airtable.com/articles/product/gantt-charts) are also an option.
+
+
+### Calendar <br/>
+**Page Type:** Calendar
+
+![NBC_Airtable_CalendarGraphic](https://github.com/user-attachments/assets/fdf7fd34-6ed4-479d-98c0-f9fece654dbb)
+
+
+#### Featured Elements <br/>
+**Calendars** <br/>
+> Calendars allow users to display their records based on a date field. In this case, the calendar shows TV episodes based on their original air date.
+
+
+### Statistics <br/>
+**Page Type:** Blank Dashboard
+
+<img width="515" alt="NBC_Airtable_StatsDash" src="https://github.com/user-attachments/assets/3dea0f13-e8e4-4a6a-b265-5c73e672f648" />
+
+
+![NBC_Airtable_StatsDash_Graphic](https://github.com/user-attachments/assets/f4e37e8c-d510-4e04-b203-90f79a2cfc91)
+
+#### Featured Elements <br/>
+
+**Connected Filters** <br/>
+> Users can customize what they see by filtering the data to only include certain shows, years, seasons, writers, and directors. These filters are connected to the numbers, line graph, pie chart, and episode list, and the graphics automatically update to match the filters. This allows users to answer specific questions without being overwhelmed by options.
+
+**Numbers, Line Graphs, and Pie Charts** <br/>
+> These elements display important data in a visual, succinct manner.
+
+**Episode List** <br/>
+> The list of records shows the data entries that make up the graphics. Users can expand individual episodes to get more information.
+
+
+
+### Writers <br/>
+**Page Type:** Blank Dashboard
+<img width="752" alt="NBC_Airtable_Writers_TinaFey" src="https://github.com/user-attachments/assets/1f016070-4ea3-4f7f-802d-2a1454551e5b" />
+<img width="753" alt="NBC_Airtable_MichaelShur" src="https://github.com/user-attachments/assets/39cb735a-e65f-4ba1-aef7-c40de190da92" />
+
+#### Featured Elements <br/>
+
+**Record Picker** <br/>
+> Users can switch between writers using the record picker in the top righthand corner. The options are pre-filtered to exclude creators who have directed but do not have writing credits.
+
+**Buttons** <br/>
+> Users can visit a writer's Wikipedia page or the Wikipedia page for any individual episode using buttons.
+
+**Numbers, Line Charts, and Bar Charts** <br/>
+> These are all ways to summarize writer data visually. The "Views Per Episode" line graph is color-coded by TV show, and the bar chart includes a manual filter for users to see a writer's involvement in a given show each season.
+
+
+**"Hero" and "Carousel" Photos** <br/>
+> Airtable dashboards include many options for displaying photos. "Hero" photos, like the writer headshots, are large singular images without a file or field name. Meanwhile, "carousel" photos are areas that can display multiple photos at once, like our show logos. If their were too many photos for the space, a scrollbar is added automatically.
+
+
+**Gallery Views** <br/>
+>  Gallery views summarize records through a primary image field (like a season DVD cover), with other selected data displayed below. The two gallery views on this page are identical, but they are filtered differently. "Lena's Reviews" only shows the records of episodes I have rated or reviewed. "Most Viewed Episodes," however, shows all the writer's episodes sorted from most-to-least views. Depending on screen size, the top 1-3 episodes are displayed.
+
+
+
+
+
 
