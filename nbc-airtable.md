@@ -15,6 +15,8 @@ Airtable is a relational database software. This allows for more complex links b
   
 </details>
 
+<br/>
+
 ## Access the Database:
 
 Airtable is limited in public features that can be accessed without an account. I hope to expand the publically available features of this database, but in the meantime, you can get a sense of the base through the screenshots below or by watching the video (coming soon).
@@ -66,7 +68,8 @@ Name & " is a " & {Years} &
 & ", and its finale aired on " & DATETIME_FORMAT({Finale Date}, 'MMMM DD, YYYY') & "."
 ```
 
----- 
+<br/>
+----
 
 ## Shows Overview
 ![NBC_Airtable_SO_ShowPages](https://github.com/user-attachments/assets/b9d7359e-c591-44d7-9950-698afba71ef9)
@@ -85,6 +88,7 @@ Name & " is a " & {Years} &
 
 > **In-Line Editing** <br/>
 >Authorized users (me) can edit rating and review information from the page itself. This makes it easy to look up an episode and review it without needing to open the larger database.
+
 <br/>
 ----
 
@@ -111,6 +115,8 @@ Name & " is a " & {Years} &
 **Featured Elements:** <br/>
 > **Gallery View** <br/>
 > Gallery views summarize records through a primary image field (in this case, the DVD cover), with other selected data displayed below. This view is filtered so that it only shows episodes I have rated or reviewed. Users can click on an episode to open the details page, where they can see information and statistics about an episode or edit ratings/reviews in-line.
+
+
 <br/>
 ----
 
@@ -121,7 +127,7 @@ Name & " is a " & {Years} &
 **Page Type:** Timeline <br/><br/>
 **Featured Elements:** <br/>
 >**Timelines** <br/>
-> Timelines allow Airtable users to visualize events or periods of time using a start and end date. For more complex timelines– such as production schedules where one task may depend on the completion of another– ![Gantt Charts](https://www.airtable.com/articles/product/gantt-charts) are also an option.
+> Timelines allow Airtable users to visualize events or periods of time using a start and end date. For more complex timelines– such as production schedules where one task may depend on the completion of another– [Gantt Charts](https://www.airtable.com/articles/product/gantt-charts) are also an option.
 
 <br/>
 ----
@@ -135,9 +141,10 @@ Name & " is a " & {Years} &
 > **Calendars** <br/>
 > Calendars allow users to display their records based on a date field. In this case, the calendar shows TV episodes based on their original air date.
 
+<br/>
 ----
 
-### Statistics
+## Statistics
 
 <img width="515" alt="NBC_Airtable_StatsDash" src="https://github.com/user-attachments/assets/3dea0f13-e8e4-4a6a-b265-5c73e672f648" />
 
@@ -159,7 +166,7 @@ Name & " is a " & {Years} &
 <br/>
 ----
 
-### Writers
+## Writers
 <img width="752" alt="NBC_Airtable_Writers_TinaFey" src="https://github.com/user-attachments/assets/1f016070-4ea3-4f7f-802d-2a1454551e5b" />
 <img width="753" alt="NBC_Airtable_MichaelShur" src="https://github.com/user-attachments/assets/39cb735a-e65f-4ba1-aef7-c40de190da92" />
 
