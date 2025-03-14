@@ -10,16 +10,16 @@ An online tool was used to convert Wikipedia tables into .csv files. This gave u
 > **Online Tool:** [WikiTable2CSV](https://wikitable2csv.ggor.de/)
 
 #### Example:  
-> **Show:** 30 Rock  
-> **Wikipedia Page:** [List of 30 Rock Episodes](https://en.wikipedia.org/wiki/List_of_30_Rock_episodes) 
-> **CSV Output:** [30 Rock S1](/Uploads/table-2.csv)
+> **Show:** 30 Rock  <br/>
+> **Wikipedia Page:** [List of 30 Rock Episodes](https://en.wikipedia.org/wiki/List_of_30_Rock_episodes) <br/>
+> **CSV Output:** [30 Rock S1](/Uploads/table-2.csv) <br/>
 
 The process was repeated to gather general information on show seasons such as the rank, timeslot, and average viewers. These .csv files were then added as individual sheets in the Excel document.
 
 #### Example:  
-> **Show:** 30 Rock  
-> **Wikipedia Page:** [30 Rock]([[30 Rock S1](/Uploads/table-2.csv](https://en.wikipedia.org/wiki/30_Rock))  
-> **CSV Output:** [30 Rock S1](/Uploads/30_Rock_2.csv)
+> **Show:** 30 Rock  <br/>
+> **Wikipedia Page:** [30 Rock]([[30 Rock S1](/Uploads/table-2.csv](https://en.wikipedia.org/wiki/30_Rock))  <br/>
+> **CSV Output:** [30 Rock S1](/Uploads/30_Rock_2.csv) <br/>
 
 Information on airtime in "Episode List" was filled in manually based on the season's timeslot information (from .csv file below). Discrepancies were cross-check with a [daily TV schedule](https://www.tvtango.com/listings/2012/05/17/kathy). Information on TV Season (ex. 2008-2009) in "Episode List" was filled in using an INDIRECT VLOOKUP formula that checked the "Season Info" sheets in the Excel document.
 
@@ -30,11 +30,11 @@ Other minor steps were taken to ensure consistency of the data. More information
 When importing the Excel workbook into Airtable, the data had to be adjusted to the form of a relational database.
 
 ### Creating a Relational Database
-> 1) The "Episode List" sheet was imported as-is  
-> 2) A new table "Shows" was creating, with an entry for each of the 4 shows  
-> 3) A new table "Show Seasons" was created, and the data from all four "Season Info" Excel sheets was merged into this table.  
-> 4) The columns "Season Title" and "Show" in the table "Episode List" were converted into linked fields, which automatically connected all three tables.  
-> 5) More information was added such as Wikipedia links and a tabkle for writers/directors– you can find more information on these steps in the sections below.  
+1) The "Episode List" sheet was imported as-is  
+2) A new table "Shows" was creating, with an entry for each of the 4 shows  
+3) A new table "Show Seasons" was created, and the data from all four "Season Info" Excel sheets was merged into this table.  
+4) The columns "Season Title" and "Show" in the table "Episode List" were converted into linked fields, which automatically connected all three tables.  
+5) More information was added such as Wikipedia links and a tabkle for writers/directors– you can find more information on these steps in the sections below.  
 
 ### Excel and Airtable Schema Differences
 
@@ -120,22 +120,22 @@ get_episode_links(tv_show_name, wikipedia_episode_list_url, save_directory)
 The resulting data was slightly messy because the page formatting was not the same across each Wikipedia page. Thus, the following steps were taken to match the data with the data present in Airtable:
 
 #### Merging Data:
-> 1) Both Airtable and .csv data was sorted by episode title  
-> 2) Discrepancies in .csv data were identified (not all episodes of every show had a Wikipedia page)  
-> 3) Data was copy and pasted in chunks (chunks were broken at discrepancy points) into Airtable  
-> 4) Episodes with missing Wikipedia pages were spot-checked to ensure the pages actually did not exist.  
-> 5) When applicable, missing Wikipedia links were substituted for fandom Wiki links manually (for example: [The Office - S5E4 - "Baby Shower"](https://theoffice.fandom.com/wiki/Baby_Shower)). This process was not fully completed and is a goal for the future.  
+1) Both Airtable and .csv data was sorted by episode title  
+2) Discrepancies in .csv data were identified (not all episodes of every show had a Wikipedia page)  
+3) Data was copy and pasted in chunks (chunks were broken at discrepancy points) into Airtable  
+4) Episodes with missing Wikipedia pages were spot-checked to ensure the pages actually did not exist.  
+5) When applicable, missing Wikipedia links were substituted for fandom Wiki links manually (for example: [The Office - S5E4 - "Baby Shower"](https://theoffice.fandom.com/wiki/Baby_Shower)). This process was not fully completed and is a goal for the future.  
 
 
 ## Seperating Writers & Directors
 My early Wikipedia data in Excel gave me information on the writers and directors of each episode. I wanted to keep a seperate table in Airtable for these individuals; however, it was not as easy as converting to a linked field (as I did for "Show" and "Season Title"). This is because many episodes have multiple directors and writers listed, so I had to find a work-around.
 
 ### Creating Writer/Director Table
-> 1) Created formula fields that took the data from "Written By" and "Directed By" and converted any "&" symbol to a ",". Ex. "Tina Fey & Matt Hubbard" –> "Tina Fey, Matt Hubbard"  
-> 2) Duplicated these formula fields and converted them to multi-select fields. Airtable determines how data is split when converted to a multi-select field the same way as a linked field, so this was an easy way to identify future issues.  
-> 3) The table was sorted alphabetically by the new multi-select field. Some problems, like minor name variations and splitting issues were identified and then fixed.  
-> 4) Created a new table called "Writer's/Directors"  
-> 5) Converted the multi-select field into a linked field, which auto-populated the "Writer's/Directors" table and created the links.  
+1) Created formula fields that took the data from "Written By" and "Directed By" and converted any "&" symbol to a ",". Ex. "Tina Fey & Matt Hubbard" –> "Tina Fey, Matt Hubbard"  
+2) Duplicated these formula fields and converted them to multi-select fields. Airtable determines how data is split when converted to a multi-select field the same way as a linked field, so this was an easy way to identify future issues.  
+3) The table was sorted alphabetically by the new multi-select field. Some problems, like minor name variations and splitting issues were identified and then fixed.  
+4) Created a new table called "Writer's/Directors"  
+5) Converted the multi-select field into a linked field, which auto-populated the "Writer's/Directors" table and created the links.  
 
 
 ## Finding Writer/Director IMDBs, Wikipedias, and Headshots.
@@ -232,8 +232,8 @@ print(f"\n✅ Data saved to {output_file}")
 
 
 ### Example
-> [**Sample Output Document**](/Uploads/NBC_WritersDirectors.csv)  
-> [**Cleaned Output Document**](/Uploads/NBC_WritersDirectors_Cleaned.csv)
+> [Sample Output Document](/Uploads/NBC_WritersDirectors.csv)  
+> [Cleaned Output Document](/Uploads/NBC_WritersDirectors_Cleaned.csv)
 
 
 This script uses Wikipedia's API to search based on name, then return the first result. Because of this, some of the links returned are not correct. For instance, a writer without their own Wikipedia page may appear by name in the Wikipedia page for a project ehy worked on. In this case, the script would return that link, since it is the first search result. Obviously incorrect data was removed from the set, and the remaining data was spot-checked.
