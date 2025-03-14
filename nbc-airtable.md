@@ -13,7 +13,7 @@ Airtable is a relational database software. This allows for more complex links b
   
 <img alt="Excel and Airtable Schema Comparison " src="images/NBC Airtable Base Schema.png" />
   
-</details><br/>
+</details>
 
 ## Access the Database:
 
@@ -26,7 +26,10 @@ You can request access to a read-only version (account required) of the dashboar
 </a> 
 <a href="[https://airtable.com/invite/l?inviteId=inv7DwQSFPrkqpBNR&inviteToken=78132d4b44bc6a2e9e9e4614f0040b030214cf91a0d72bbb08b13b9a1e863106&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts](https://airtable.com/appw7S2sXMf1zRiMv/shrstIhF7bMnQak1Y)">
   <img src="/images/icons/Airtable_Button2.png" alt="See Public Airtable Dashboard" width="150" height="50">
-</a> 
+</a> <br/>
+
+----
+<br/>
 
 # Explore the Dashboards
 
@@ -38,7 +41,7 @@ One of Airtable's main strengths is the ability to create user-friendly interfac
 ----
 
 ## Introduction to Base
-<img width="540" alt="NBC_Airtable_MainPage" src="https://github.com/user-attachments/assets/c5795baa-0bbd-49a4-a784-74cf8366809f" /> <br/> <br/>
+<img width="540" alt="NBC_Airtable_MainPage" src="https://github.com/user-attachments/assets/c5795baa-0bbd-49a4-a784-74cf8366809f" /> <br/>
 
 **Page Type:** Dashboard <br/> <br/>
 
@@ -65,7 +68,7 @@ Name & " is a " & {Years} &
 
 ---- 
 
-### Shows Overview
+## Shows Overview
 ![NBC_Airtable_SO_ShowPages](https://github.com/user-attachments/assets/b9d7359e-c591-44d7-9950-698afba71ef9)
 
 
@@ -82,10 +85,10 @@ Name & " is a " & {Years} &
 
 > **In-Line Editing** <br/>
 >Authorized users (me) can edit rating and review information from the page itself. This makes it easy to look up an episode and review it without needing to open the larger database.
-
+<br/>
 ----
 
-### Episode List
+## Episode List
 
 ![NBC_Airtable_EpisodeList_Graphic](https://github.com/user-attachments/assets/b0c87888-ac33-484f-8c5d-e0c621213215)
 
@@ -98,19 +101,20 @@ Name & " is a " & {Years} &
 > **Grouping, Filtering, Sorting, and Searching** <br/>
 > Users can apply their own custom grouping, sorting, and filtering to the data. Users can also search for an episode directly by title. This makes this view the most useful for finding specific episodes quickly.
 
+<br/>
 ----
 
-### Lena's Reviews
+## Lena's Reviews
 <img width="910" alt="NBC_Airtable_LenaReviews" src="https://github.com/user-attachments/assets/f721b370-0a37-48c6-b739-ea7f35904798" />
 
 **Page Type:** Gallery <br/><br/>
 **Featured Elements:** <br/>
 > **Gallery View** <br/>
 > Gallery views summarize records through a primary image field (in this case, the DVD cover), with other selected data displayed below. This view is filtered so that it only shows episodes I have rated or reviewed. Users can click on an episode to open the details page, where they can see information and statistics about an episode or edit ratings/reviews in-line.
-
+<br/>
 ----
 
-### Season Timeline <br/>
+## Season Timeline
 
 <img width="707" alt="NBC_Airtable_SeasonTimeline" src="https://github.com/user-attachments/assets/0c8addd5-59f9-4412-8cfc-2477fa480960" />
 
@@ -119,9 +123,10 @@ Name & " is a " & {Years} &
 >**Timelines** <br/>
 > Timelines allow Airtable users to visualize events or periods of time using a start and end date. For more complex timelines– such as production schedules where one task may depend on the completion of another– ![Gantt Charts](https://www.airtable.com/articles/product/gantt-charts) are also an option.
 
+<br/>
 ----
 
-### Calendar <br/>
+## Calendar 
 
 ![NBC_Airtable_CalendarGraphic](https://github.com/user-attachments/assets/fdf7fd34-6ed4-479d-98c0-f9fece654dbb)
 
@@ -132,7 +137,7 @@ Name & " is a " & {Years} &
 
 ----
 
-### Statistics <br/>
+### Statistics
 
 <img width="515" alt="NBC_Airtable_StatsDash" src="https://github.com/user-attachments/assets/3dea0f13-e8e4-4a6a-b265-5c73e672f648" />
 
@@ -151,9 +156,10 @@ Name & " is a " & {Years} &
 > **Episode List** <br/>
 > The list of records shows the data entries that make up the graphics. Users can expand individual episodes to get more information.
 
+<br/>
 ----
 
-### Writers <br/>
+### Writers
 <img width="752" alt="NBC_Airtable_Writers_TinaFey" src="https://github.com/user-attachments/assets/1f016070-4ea3-4f7f-802d-2a1454551e5b" />
 <img width="753" alt="NBC_Airtable_MichaelShur" src="https://github.com/user-attachments/assets/39cb735a-e65f-4ba1-aef7-c40de190da92" />
 
