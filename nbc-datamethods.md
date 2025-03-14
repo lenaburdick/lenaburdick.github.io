@@ -7,23 +7,23 @@ Various methods were used to collect data for this project. Not all data is pres
 
 An online tool was used to convert Wikipedia tables into .csv files. This gave us the initial information about episode titles, dates, writers, directors, and viewers. These .csv files were then merged into one dataset in Excel.
 
-> **Online Tool:** [LINK]
+> **Online Tool:** [WikiTable2CSV](https://wikitable2csv.ggor.de/)
 
 #### Example:  
 > **Show:** 30 Rock  
-> **Wikipedia Page:** [LINK]  
-> **CSV Output:** [FILE]  
+> **Wikipedia Page:** [List of 30 Rock Episodes](https://en.wikipedia.org/wiki/List_of_30_Rock_episodes) 
+> **CSV Output:** [30 Rock S1](/Uploads/table-2.csv)
 
 The process was repeated to gather general information on show seasons such as the rank, timeslot, and average viewers. These .csv files were then added as individual sheets in the Excel document.
 
 #### Example:  
 > **Show:** 30 Rock  
-> **Wikipedia Page:** [LINK]  
-> **CSV Output:** [FILE]
+> **Wikipedia Page:** [30 Rock]([[30 Rock S1](/Uploads/table-2.csv](https://en.wikipedia.org/wiki/30_Rock))  
+> **CSV Output:** [30 Rock S1](/Uploads/30_Rock_2.csv)
 
-Information on airtime in "Episode List" was filled in manually based on the season's timeslot information (from .csv file below). Discrepancies were cross-check with a daily TV schedule [LINK]. Information on TV Season (ex. 2008-2009) in "Episode List" was filled in using an INDIRECT VLOOKUP formula that checked the "Season Info" sheets in the Excel document.
+Information on airtime in "Episode List" was filled in manually based on the season's timeslot information (from .csv file below). Discrepancies were cross-check with a [daily TV schedule](https://www.tvtango.com/listings/2012/05/17/kathy). Information on TV Season (ex. 2008-2009) in "Episode List" was filled in using an INDIRECT VLOOKUP formula that checked the "Season Info" sheets in the Excel document.
 
-Other minor steps were taken to ensure consistency of the data. More information can be found in the Excel Document [LINK] itself.
+Other minor steps were taken to ensure consistency of the data. More information can be found in the [Excel Document](/nbc-excel.md) itself.
 
 ## Converting Data to Relational Database
 
@@ -38,7 +38,7 @@ When importing the Excel workbook into Airtable, the data had to be adjusted to 
 
 ### Excel and Airtable Schema Differences
 
-![NBC Airtable Base Schema](https://github.com/user-attachments/assets/707f955e-92b8-41e9-a321-fdeda1f83d14)
+<img alt="Excel and Airtable Schema Comparison " src="images/NBC Airtable Base Schema.png" />
 
 ## Finding Episode Wikipedia Pages
 
@@ -124,7 +124,7 @@ The resulting data was slightly messy because the page formatting was not the sa
 > 2) Discrepancies in .csv data were identified (not all episodes of every show had a Wikipedia page)  
 > 3) Data was copy and pasted in chunks (chunks were broken at discrepancy points) into Airtable  
 > 4) Episodes with missing Wikipedia pages were spot-checked to ensure the pages actually did not exist.  
-> 5) When applicable, missing Wikipedia links were substituted for fandom Wiki links manually (for example: [LINK]). This process was not fully completed and is a goal for the future.  
+> 5) When applicable, missing Wikipedia links were substituted for fandom Wiki links manually (for example: [The Office - S5E4 - "Baby Shower"](https://theoffice.fandom.com/wiki/Baby_Shower)). This process was not fully completed and is a goal for the future.  
 
 
 ## Seperating Writers & Directors
