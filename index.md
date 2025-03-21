@@ -8,7 +8,7 @@
 [<img src ="/images/HomePage_NBC_DataCleaning.png">](/nbc-datamethods)
 [<img src ="/images/HomePage_NBC_Excel.png">](/nbc-excel)
 [<img src ="/images/Homepage_NBC_Airtable.png">](/nbc-airtable)
-[<img src ="/images/Homepage_NBC_Tableau.png">](/nbc-tableau)
+[<img src ="/images/Homepage_NBC_Tableau.png">](https://public.tableau.com/views/NBCThursdaynightLineup/MainDashboard?:language=en-US&publish=yes&:sid=349D495ED436418688F81887524777EA-0:0&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
