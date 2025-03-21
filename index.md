@@ -8,11 +8,7 @@
 [<img src ="/images/HomePage_NBC_DataCleaning.png">](/nbc-datamethods)
 [<img src ="/images/HomePage_NBC_Excel.png">](/nbc-excel)
 [<img src ="/images/Homepage_NBC_Airtable.png">](/nbc-airtable)
-
-
----
-[Tableau](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[<img src ="/images/Homepage_NBC_Tableau.png">](/nbc-tableau)
 
 ---
 
