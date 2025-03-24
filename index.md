@@ -1,13 +1,12 @@
-## Portfolio
+# Portfolio
 
 ---
 
-### Sample Projects
+## Sample Projects
+Using NBC's 2009-2013 Thursday lineup, I collected a dataset with information on viewers, rankings, writers/directors, and other metrics. Explore what a project might look like in Excel, Airtable, or Tableau by clicking on the icons below.
 
-[<img src ="/images/Homepage_NBC_Title.png">]
 
-
-##### Explore the same dataset in Microsoft Excel, Airtable, and Tableau. 
+<img src ="/images/Homepage_NBC_Title.png">
 
 [<img src ="/images/Homepage_NBC_DataCleaning.png">](/nbc-datamethods)
 [<img src ="/images/Homepage_NBC_Excel.png">](/nbc-excel)
