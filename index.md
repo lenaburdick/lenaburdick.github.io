@@ -2,7 +2,11 @@
 
 ---
 
-### Sample Projects 
+### Sample Projects
+
+[<img src ="/images/Homepage_NBC_Title.png">]
+
+
 ##### Explore the same dataset in Microsoft Excel, Airtable, and Tableau. 
 
 [<img src ="/images/Homepage_NBC_DataCleaning.png">](/nbc-datamethods)
