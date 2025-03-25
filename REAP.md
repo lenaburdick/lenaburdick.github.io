@@ -1,7 +1,7 @@
 
 
 ```mermaid
-graph TD
+flowchart TD
     A["`**LNG Spot Prices**
     LNG Spot Price Assessment.xlsx`"];
     B["`**Parameter Estimates**
