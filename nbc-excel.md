@@ -3,7 +3,9 @@
 ## Project description:  
 This project is a collection of data from four NBC TV shows: The Office, 30 Rock, Community, and Parks and Recreation.  
 
-**Download the workbook here:**  
+## Access the Workbook:
+
+Download the workbook, or explore screenshots and descriptions of each section, below.
 
 <a href="/uploads/NBC Thursday Night Line Up - Github.xlsm" download>
   <img src="/images/icons/Excel_Button.png" alt="Download Excel File" width="150" height="50">
