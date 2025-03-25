@@ -17,7 +17,7 @@ Using NBC's 2009-2013 Thursday lineup, I collected a dataset with information on
 
 ### Complex Projects
 
-- [REAP Excel Project](http://example.com/)
+- [REAP Excel Project](/REAP.md)
 - [HFSC Project](http://example.com/)
 - [Kondev Group Research](http://example.com/)
 - [iCook Airtable Database](http://example.com/)
