@@ -19,7 +19,7 @@ Workbook Guide:
 Introduction Page
 ------
 
-<details>
+<details open>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_MainPage.png"/>
 </details><br/>
@@ -30,7 +30,7 @@ This sheet gives users an overview of the workbook as a whole. It also functions
 
 Episode List
 ------
-<details>
+<details open>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_EpisodeList.png"/>
 </details><br/>
@@ -41,7 +41,7 @@ This sheet features a table of every episode of each show. The table can be filt
 
 Graphs
 ------
-<details>
+<details open>
 <summary> Full Page Screenshot </summary>
 <img src="images/NBC/Excel/NBC_Excel_Graphs.png"/>
 </details><br/>
@@ -57,7 +57,7 @@ Color Values
 
 **Technical Details:** [Click Here](/excel-nbc-colorvalues.md) to explore the technical details of the Color Value Tool, including code for the VBA macros.
 
-<details>
+<details open>
 <summary> Full Page Screenshot</summary>
 
 <img width="911" alt="NBC_Excel_ColorValues_Main" src="https://github.com/user-attachments/assets/f5ba0ecb-a0bc-41e5-b15e-15649381275b" />
@@ -73,7 +73,7 @@ This tool gives users control over the colors used to identify shows & seasons i
 Season Info
 ------
 
-<details>
+<details open>
 <summary> Sample Page Screenshot</summary>
 
 <img width="1415" alt="NBC_Excel_SeasonInfo" src="https://github.com/user-attachments/assets/c0a349b5-2586-4efb-82b5-cfc2fbfa79f9" />
