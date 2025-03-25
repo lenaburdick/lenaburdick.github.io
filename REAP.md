@@ -107,57 +107,57 @@ This is the project's main model. It includes several sheets which build ontop o
 **Process:** Uses user inputs (e.g. from Parameter Estimates) to generate a sample price path with monthly data <br/>
 **Result:** Generates new sample path each time sheet is refreshed
 
-</details><br/>
+</details>
 
 <details>
 <summary> Output </summary>
     
-**Process:** Uses a VBA Macro to record 1000 sample price paths generated from “Main” sheet.
-**Result:** Monthly LNG prices - 1000 rows
+Process: Uses a VBA Macro to record 1000 sample price paths generated from “Main” sheet.
+Result: Monthly LNG prices - 1000 rows
 
-</details><br/>
+</details>
 
 
 <details>
 
 <summary> Yearly Gas Costs </summary>
-    
-**Process:** <br/>
+
+Process: <br/>
 Averages the monthly data for each year of the simulation using a VBA macro. <br/>
 
-**Result:** <br/>
+Result: <br/>
 Yearly LNG prices - 1000 rows
 
-</details><br/>
+</details>
 
 
 <details>
 
 <summary> Yearly Fuel Costs </summary>
     
-**Process:** <br/>
+Process: <br/>
 Adds yearly predicted coal and oil prices (from NREL data) to yearly LNG prices. Does this for both RPS and BAU cases. Uses inflation assumptions to calculate both nominal costs and real costs. <br/>
 
-**Result:**
-- Yearly Fuel prices under RPS plan (nominal & real) - 1000 rows (each)
-- Yearly Fuel Prices under BAU plan (nominal & real) - 1000 rows (each)
+Result: <br/>
+- Yearly Fuel prices under RPS plan (nominal & real) - 1000 rows (each) <br/>
+- Yearly Fuel Prices under BAU plan (nominal & real) - 1000 rows (each) <br/>
 
-</details><br/>
+</details>
 
 
 <details>
 
 <summary> Yearly Total Energy Costs </summary>
     
-**Process:** <br/>
+Process: <br/>
 Adds yearly predicted fuel costs to yearly predicted non-fuel costs. Most predicted non-fuel costs are taken from NREL data. “Renewable Purchases” for the BAU case are taken from NREL data, but the RPS data were calculated by Tariff Model. Non-variable Generation Costs were calculated separately, as the NREL data only accounted for variable costs. Yearly energy usage data was used to calculate the yearly cost to consumers. <br/>
 
-**Result:**
-- Yearly Total Energy Cost (nominal) for RPS & BAU Plan - 1000 rows (each)
-- Yearly Price Per KWh for RPS & BAU Plan - 1000 rows (each)
-- Yearly Cost to Consumers for RPS & BAU Plan - 1000 rows (each)
+Result:
+- Yearly Total Energy Cost (nominal) for RPS & BAU Plan - 1000 rows (each) <br/>
+- Yearly Price Per KWh for RPS & BAU Plan - 1000 rows (each) <br/>
+- Yearly Cost to Consumers for RPS & BAU Plan - 1000 rows (each) <br/>
 
-</details><br/>
+</details>
 
 
 
