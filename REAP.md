@@ -58,8 +58,8 @@ LNG Spot Prices
 ------
 <details>
 <summary> Workbook Description </summary>
--Collects various sources for natural gas spot prices
--Runs regression to fill in gaps in data
+-Collects various sources for natural gas spot prices <br/>
+-Runs regression to fill in gaps in data <br/>
 -Produces LNG price data for each month of a 10-year period
 </details><br/>
 
@@ -70,7 +70,7 @@ Parameter Estimates
 ------
 <details>
 <summary> Workbook Description </summary>
--Uses LNG regression data
+-Uses LNG regression data <br/>
 -Estimates relevant parameters and volatilities for mean reversion model
 </details><br/>
 
@@ -80,8 +80,8 @@ Inputs Document
 ------
 <details>
 <summary> Workbook Description </summary>
--Breaks new renewable energy infrastructure purchases into 23 separate projects (9 solar, 14 wind) which begin development, construction, and production in different years.
--Allows users to change model parameters, cost/schedule inputs, assumptions about technological advancements and region-specific factors.
+-Breaks new renewable energy infrastructure purchases into 23 separate projects (9 solar, 14 wind) which begin development, construction, and production in different years. <br/>
+-Allows users to change model parameters, cost/schedule inputs, assumptions about technological advancements and region-specific factors. <br/>
 -Indexes various schedule information to be easily used by Tariff Model.
 </details><br/>
 
@@ -91,8 +91,8 @@ Tariff Model
 ------
 <details>
 <summary> Workbook Description </summary>
--Calculates various metrics for each project including but not limited to subsidies, CapEx, AFUDC, Book Depreciation, Tax Depreciation, ADIT, Traditional Cost of Service, and Levelized Cost of Service
--Uses yearly expenditures of each project to find yearly expenditures of all projects, which are then used to find the “Yearly Total Energy Costs” for the RPS plan.
+-Calculates various metrics for each project including but not limited to subsidies, CapEx, AFUDC, Book Depreciation, Tax Depreciation, ADIT, Traditional Cost of Service, and Levelized Cost of Service <br/>
+-Uses yearly expenditures of each project to find yearly expenditures of all projects, which are then used to find the “Yearly Total Energy Costs” for the RPS plan. <br/>
 </details><br/>
 
 
