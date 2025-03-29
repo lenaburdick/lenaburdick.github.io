@@ -7,7 +7,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Here, I hope to highlight some of my projects.  
   <br><br>
-  <a href="https://www.linkedin.com/in/lena-burdick/">View My LinkedIn Profile</a> <br>
+  <a href="https://www.linkedin.com/in/lena-burdick/">View My LinkedIn Profile</a> <br> <br>
   <a href="https://www.upwork.com/freelancers/~01874dec4abeeccd82?mp_source=share">View My Upwork Profile</a> <br>
   
 remote_theme: pages-themes/minimal@v0.2.0
