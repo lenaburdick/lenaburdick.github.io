@@ -29,6 +29,8 @@ How do we model intersecting scenarios and ensure flexibility across inputs?
 How do we build visualization that are both useful for analysts and easy for legislators to interpret?
 </details>
 
+<br/>
+
 
 ## Why Excel?
 
@@ -44,7 +46,7 @@ This project was developed in Excel because of preexisting company infrastructur
 <img src="images/REAP - Extensive Model Structure.png"/>
 
 </details>
-
+<br/>
 
 ---
 
