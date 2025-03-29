@@ -40,8 +40,8 @@ This project was developed in Excel because of preexisting company infrastructur
 
 <details>
 <summary> View Detailed Model Structure </summary>
-  
-![REAP - Extensive Model Structure](https://github.com/user-attachments/assets/28644dea-bb78-49ad-b8a4-29a67131cf6f)
+
+<img src="images/REAP - Extensive Model Structure.png"/>
 
 </details>
 
