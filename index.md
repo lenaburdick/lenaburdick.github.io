@@ -1,6 +1,12 @@
 # Portfolio
 
+## Professional Projects
+
+![1](https://github.com/user-attachments/assets/5d8c1469-dfd9-434b-99b6-3024c108d7e6) ![2](https://github.com/user-attachments/assets/c776680e-8c03-447c-83c8-0e9acae0d6df) ![3](https://github.com/user-attachments/assets/fb17cc9e-af45-4adf-b07a-e52a5e25e8aa)
+
+
 ---
+
 
 ## Sample Projects
 Using NBC's 2009-2013 Thursday lineup, I collected a dataset with information on viewers, rankings, writers/directors, and other metrics. Explore what a project might look like in Excel, Airtable, or Tableau by clicking on the icons below.
