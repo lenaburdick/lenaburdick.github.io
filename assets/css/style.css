@@ -1,6 +1,0 @@
-/* Change color of site title link */
-/* "Since your Jekyll site is using a remote theme (pages-themes/minimal@v0.2.0), you can’t directly edit the theme’s built-in CSS, but you can add your own custom CSS to override it." -CHATGPT */
-
-header h1 a {
-  color: ##82ab5c; /* Replace with any color you want */
-}
