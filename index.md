@@ -18,18 +18,19 @@ Using NBC's 2009-2013 Thursday lineup, I collected a dataset with information on
 ### Complex Projects
 
 - [REAP Excel Project](/REAP.md)
-- [HFSC Project](http://example.com/)
+- [HFSC Project](/HFSC.md)
+- [iCook Airtable Database](/iCook-Airtable.mb)
+
+
+--- 
+
+**COMING SOON**
+
+Scientific Research
 - [Kondev Group Research](http://example.com/)
-- [iCook Airtable Database](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
----
-
-### Graphic Design and Creative Projects
-
+Graphic Design and Creative Projects
 - [Canva Presentations](http://example.com/)
-
----
 
 
 
