@@ -4,16 +4,31 @@
 
 REAP is a nonprofit that promotes renewable energy development in Alaska. I was brought in to develop an economic model to assess the impact of proposed legislation which would increase the state's renewable energy use to 80%.
 
-- Policy Research
-  - How would the proposed policy interact with pre-existing tax incentives and regulations? What are the specifics of the policy, and how do they relate to our calculations?
-- Data Gathering
-  - How do we translate existing data into meaningful predictions? Where do we find this data, and how do we fill in the gaps?
-- Data Cleaning and Project Organization
-  - Some portions of the project had been developed by people who had since left. How can we interpret portions of the project that do not have documentation and reconstruction their function? How do we build this documentation and reformat the user interface to make the tool easier for future users?
-- Mathematical Modeling
-  - How do we model intersecting scenarios and ensure flexibility across inputs?
-- Data Visualization
-  - How do we build visualization that are both useful for analysts and easy for legislators to interpret?
+<details>
+<summary> Policy Research </summary>
+How would the proposed policy interact with pre-existing tax incentives and regulations? What are the specifics of the policy, and how do they relate to our calculations?
+</details>
+
+<details>
+<summary> Data Gathering </summary>
+How do we translate existing data into meaningful predictions? Where do we find this data, and how do we fill in the gaps?
+</details>
+
+<details>
+<summary> Data Cleaning and Project Organization </summary>
+Some portions of the project had been developed by people who had since left. How can we interpret portions of the project that do not have documentation and reconstruction their function? How do we build this documentation and reformat the user interface to make the tool easier for future users?
+</details>
+
+<details>
+<summary> Mathematical Modeling </summary>
+How do we model intersecting scenarios and ensure flexibility across inputs?
+</details>
+
+<details>
+<summary> Data Visualization </summary>
+How do we build visualization that are both useful for analysts and easy for legislators to interpret?
+</details>
+
 
 ## Why Excel?
 
@@ -31,7 +46,10 @@ This project was developed in Excel because of preexisting company infrastructur
 </details>
 
 
-## Workbooks
+---
+
+
+# Workbooks
 
 LNG Spot Prices
 ------
@@ -40,6 +58,7 @@ LNG Spot Prices
 - Produces LNG price data for each month of a 10-year period
 <br/>
 
+---
 
 Parameter Estimates
 ------
@@ -47,6 +66,7 @@ Parameter Estimates
 - Estimates relevant parameters and volatilities for mean reversion model
 <br/>
 
+----
 
 Inputs Document
 ------
@@ -56,7 +76,7 @@ Inputs Document
 
 ![REAP - Inputs Sample](https://github.com/user-attachments/assets/abe2de4b-a7d1-49b2-8642-e501f126cb14 "Sample Screenshot of one sheet in the Inputs Document.")
 
-
+---
 
 Tariff Model
 ------
@@ -67,6 +87,7 @@ Tariff Model
 
 <img width="1293" alt="REAP - Tariff Projects Summary Sample" src="https://github.com/user-attachments/assets/b03f19b5-36a6-4abe-9aa8-df1833c108dd" />
 
+---
 
 Reversion Model
 ------
@@ -122,7 +143,7 @@ This is the project's main model. It includes several sheets which build ontop o
 <img width="1309" alt="REAP - Yearly Energy Sample 2" src="https://github.com/user-attachments/assets/95c583b8-14d8-4617-8c4f-b25ac04fe531" />
 
 
-
+---
 
 Simulation Results
 ------
@@ -137,7 +158,7 @@ Simulation Results
 
 ![REAP - Graph Samples](https://github.com/user-attachments/assets/c0ee8bb1-d637-4a1d-8f42-72b7921336e1)
 
-
+---
 
 ## VBA Macros
 
