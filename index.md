@@ -1,8 +1,11 @@
 # Portfolio
 
 ## Professional Projects
+Explore a collection of my recent professional projects.
 
-![1](https://github.com/user-attachments/assets/5d8c1469-dfd9-434b-99b6-3024c108d7e6) ![2](https://github.com/user-attachments/assets/c776680e-8c03-447c-83c8-0e9acae0d6df) ![3](https://github.com/user-attachments/assets/fb17cc9e-af45-4adf-b07a-e52a5e25e8aa)
+[<img src ="/images/Homepage_iCook.png">](/icook-airtable)
+[<img src ="/images/Homepage_REAP.png">](/reap-excel)
+[<img src ="/images/Homepage_HFSC.png">](/hfsc-tableau)
 
 
 ---
@@ -18,14 +21,6 @@ Using NBC's 2009-2013 Thursday lineup, I collected a dataset with information on
 [<img src ="/images/Homepage_NBC_Excel.png">](/nbc-excel)
 [<img src ="/images/Homepage_NBC_Airtable.png">](/nbc-airtable)
 [<img src ="/images/Homepage_NBC_Tableau.png">](https://public.tableau.com/views/NBCThursdaynightLineup/MainDashboard?:language=en-US&publish=yes&:sid=349D495ED436418688F81887524777EA-0:0&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
----
-
-### Complex Projects
-
-- [REAP Excel Project](/REAP.md)
-- [HFSC Project](/HFSC.md)
-- [iCook Airtable Database](/iCook-Airtable.mb)
 
 
 --- 
