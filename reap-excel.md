@@ -34,7 +34,7 @@ How do we build visualization that are both useful for analysts and easy for leg
 
 ## Why Excel?
 
-This project was developed in Excel because of preexisting company infrastructure. While a programming language or modeling software may have been better suited to this project, it was important to build the tool in Excel to make it accessible & editable within company resources. 
+This project was developed in Excel because of preexisting company infrastructure. While there may be programming languages or modeling software better suited to the techincal aspects of this project, Excel was the best tool on a practical level. This ensured the tool is easily editable & integrated with company resources.
 
 
 ## Simplified Model Structure
