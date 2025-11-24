@@ -26,9 +26,12 @@ You can request access to a read-only version (account required) of the dashboar
 <a href="https://airtable.com/invite/l?inviteId=inv7DwQSFPrkqpBNR&inviteToken=78132d4b44bc6a2e9e9e4614f0040b030214cf91a0d72bbb08b13b9a1e863106&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts">
   <img src="/images/icons/Airtable_Button.png" alt="Request Access to Airtable Base" width="150" height="50">
 </a> 
-<a href="[https://airtable.com/invite/l?inviteId=inv7DwQSFPrkqpBNR&inviteToken=78132d4b44bc6a2e9e9e4614f0040b030214cf91a0d72bbb08b13b9a1e863106&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts](https://airtable.com/appw7S2sXMf1zRiMv/shrstIhF7bMnQak1Y)">
+<a href="https://airtable.com/appw7S2sXMf1zRiMv/shrstIhF7bMnQak1Y">
   <img src="/images/icons/Airtable_Button2.png" alt="See Public Airtable Dashboard" width="150" height="50">
 </a> <br/>
+
+
+
 
 ----
 <br/>
