@@ -236,7 +236,7 @@ print(f"\n✅ Data saved to {output_file}")
 > [Cleaned Output Document](/Uploads/NBC_WritersDirectors_Cleaned.csv)
 
 
-This script uses Wikipedia's API to search based on name, then return the first result. Because of this, some of the links returned are not correct. For instance, a writer without their own Wikipedia page may appear by name in the Wikipedia page for a project ehy worked on. In this case, the script would return that link, since it is the first search result. Obviously incorrect data was removed from the set, and the remaining data was spot-checked.
+This script uses Wikipedia's API to search based on name, then return the first result. Because of this, some of the links returned are not correct. For instance, a writer without their own Wikipedia page may appear by name in the Wikipedia page for a project they worked on. In this case, the script would return that link, since it is the first search result. Obviously incorrect data was removed from the set, and the remaining data was spot-checked.
 
 A future goal of this project is to find IMDB links and headshots for each writer/director. However, IMDB does not allow data scraping, and I had trouble getting a Python script to work correctly.
 
