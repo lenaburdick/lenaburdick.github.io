@@ -2,7 +2,7 @@
 
 ## Project Description:
 
-This project is a collection of data from four NBC TV shows: The Office, 30 Rock, Community, and Parks and Recreation. This data was initially collected using the methods outlined in [Data Collections Methods](/nbc-datamthods.md).
+This project is a collection of data from four NBC TV shows: The Office, 30 Rock, Community, and Parks and Recreation. This data was initially collected using the methods outlined in [Data Collections Methods](/nbc-datamethods.md).
 
 ## Why Airtable?
 
