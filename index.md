@@ -8,6 +8,12 @@ Explore a collection of my recent professional projects.
 [<img src ="/images/Homepage_HFSC.png">](/hfsc-tableau)
 
 
+## Clients
+I have been freelancing across a variety of industries for the past several years. You can find information about larger projects above, or visit my client list below for an overview of my smaller projects.
+
+[<img src ="/images/Homepage_Clients.png">](/clients)
+
+
 ---
 
 
