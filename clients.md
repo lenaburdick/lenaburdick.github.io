@@ -1,4 +1,4 @@
-```markdown
+
 # Clients
 
 # Client Project Snapshot (By Skill Area)
@@ -80,4 +80,4 @@ December 2025 – Present | 30+ Hours
 <details><summary><strong>Context</strong></summary><p>Multi-service construction company needed a structured, step-by-step pipeline to guide different employees through interdependent project stages.</p></details>
 <details><summary><strong>Solution</strong></summary><p>Built a workflow-driven Airtable system with role-specific interfaces, form-based inputs, and automated email notifications to move projects through each stage while preventing user error.</p></details>
 <details><summary><strong>Skills</strong></summary><p>Airtable, workflow system design, interface design, email automation</p></details>
-```
+
