@@ -1,7 +1,7 @@
 # Clients
 Here, you can find a list of my various projects and clients, sorted by skill area. This list is not meant to be exhaustive, but rather provide an idea of the kinds of project I work on, big and small. Some projects have their own page with more details, which you can access by clicking the link in its section. While most clients are from my freelance jobs, I have also included some projects I completed during full-time employment or internships.
 
-## Excel & VBA Systems (Automation + Operations Tools)
+## Excel & VBA Systems <br> (Automation + Operations Tools)
 
 **Category Skills:**
 Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF generation, dashboard design, KPI modeling, workflow automation, data architecture, reporting systems, multi-sheet synchronization, financial modeling, user-focused UI design, conditional formatting, dynamic dropdowns, data validation
@@ -55,14 +55,11 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 
 ---
 
-## Airtable Systems (CRM, Workflows & Business Operations)
+## Airtable Systems <br> (CRM, Workflows & Business Operations)
 
 **Category Skills:**
 Airtable, relational database design, workflow automation, email automations, JavaScript (Airtable scripting/automation), API integrations, Make.com, third-party integrations (Shopify, Bexio, Clockify), MiniExtensions, interface design, forms, CRM architecture, task management systems, data linking, user access control
 
----
-
-## Airtable Systems (CRM, Workflows & Business Operations)
 
 ---
 
@@ -131,7 +128,7 @@ Airtable, relational database design, workflow automation, email automations, Ja
 
 ---
 
-## Google Sheets Systems (Automation, Scheduling & Operations)
+## Google Sheets Systems <br> (Automation, Scheduling & Operations)
 
 **Category Skills:**
 Google Sheets, Google Apps Script, API integrations, dynamic array formulas, FILTER/QUERY logic, scheduling systems, automation triggers, data synchronization, dashboard design, conditional formatting, dropdown systems, UX design in spreadsheets, real-time data views
