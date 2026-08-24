@@ -1,6 +1,5 @@
 # Clients
-
-# Client Project Snapshot (By Skill Area)
+Here, you can find a list of my various projects and clients, sorted by skill area. This list is not meant to be exhaustive, but rather provide an idea of the kinds of project I work on, big and small. Some projects have their own page with more details, which you can access by clicking the link in its section. While most clients are from my freelance jobs, I have also included some projects I completed during full-time employment or internships.
 
 ## Excel & VBA Systems (Automation + Operations Tools)
 
@@ -25,7 +24,7 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 <details open><summary><strong>Solution</strong></summary><p>Developed and rebuilt Excel-based economic models supporting analysis of an 80% renewable energy target, including 20+ years of monthly projections, 23 renewable projects, and stochastic fuel-price scenarios. Used VBA to automate modeling workflows and created decision-support outputs and visualizations for policy analysis and stakeholder discussions.</p></details>
 <details open><summary><strong>Skills</strong></summary><p>Excel, VBA, economic modeling, scenario analysis, stochastic modeling, energy policy analysis, data visualization</p></details>
 
-[View Full REAP Project →](REAP-PROJECT-PAGE-URL)
+[View Full REAP Project →]([REAP-PROJECT-PAGE-URL](https://lenaburdick.github.io/reap-excel))
 
 ---
 
@@ -60,6 +59,21 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 
 **Category Skills:**
 Airtable, relational database design, workflow automation, email automations, JavaScript (Airtable scripting/automation), API integrations, Make.com, third-party integrations (Shopify, Bexio, Clockify), MiniExtensions, interface design, forms, CRM architecture, task management systems, data linking, user access control
+
+---
+
+## Airtable Systems (CRM, Workflows & Business Operations)
+
+---
+
+### iCook After School — Airtable Operations System
+
+<details><summary><strong>Dates</strong></summary><p>September 2022 – March 2024</p></details>
+<details><summary><strong>Context</strong></summary><p>Rapidly growing after-school programming required a centralized system to coordinate employees, students, classes, school partnerships, scheduling, payroll, and other operational data that had previously been spread across disconnected processes.</p></details>
+<details open><summary><strong>Solution</strong></summary><p>Designed and built a relational Airtable system from the ground up, ultimately managing approximately 50,000 records across applicant and employee tracking, student enrollment, instructor management, class scheduling, payroll, and school partnerships. Built automations, dashboards, reporting tools, data-quality controls, and a workforce-mapping system incorporating school locations, instructor availability, transportation, and geographic data. Managed data migration and user testing and trained employees to use the system as part of their day-to-day workflows.</p></details>
+<details open><summary><strong>Skills</strong></summary><p>Airtable, relational database design, CRM architecture, workflow automation, dashboard design, reporting systems, data migration, data quality, Google Maps API integration, workforce planning, user training</p></details>
+
+[View Full iCook Airtable Project →]((https://lenaburdick.github.io/icook-airtable))
 
 ---
 
@@ -174,7 +188,7 @@ Google Sheets, Excel, Canva, data reconstruction, chart design, brand-standard f
 <details open><summary><strong>Solution</strong></summary><p>Led development of a Tableau-based reporting platform that uses jurisdiction-specific data to automatically generate customized charts, geographic maps, reports, and presentation-ready advocacy materials. Coordinated development across web, software, and graphic design contributors.</p></details>
 <details open><summary><strong>Skills</strong></summary><p>Tableau, data visualization, geographic mapping, reporting automation, presentation design, project coordination</p></details>
 
-[View Full HFSC Project →](HFSC-PROJECT-PAGE-URL)
+[View Full HFSC Project →]([HFSC-PROJECT-PAGE-URL](https://lenaburdick.github.io/hfsc-tableau))
 
 ---
 
@@ -210,11 +224,19 @@ WordPress, HTML/CSS, PHP, Airtable, relational data systems, website development
 <details open><summary><strong>Solution</strong></summary><p>Designed and implemented much of the organization’s public-facing website, including customized WordPress templates and interactive resources. Developed an Airtable-based digital library and integrated it into the website for public browsing, while also managing ongoing digital communications and social media content.</p></details>
 <details open><summary><strong>Skills</strong></summary><p>WordPress, CSS/PHP, Airtable, digital library design, website development, data organization, content management, social media management</p></details>
 
-[Visit Website →](WEBSITE-LINK) | [Explore Digital Library →](DIGITAL-LIBRARY-LINK) | [Social Media →](SOCIAL-MEDIA-LINK)
+[Visit Website →](https://www.libraryofthegreatlakes.org) | [Explore Digital Bookshelf →]((https://libraryofthegreatlakes.org/digital-bookshelf)) | [Social Media →](https://www.instagram.com/libraryofthegreatlakes)
+
+
+## Hybrid / Miscellaneous
 
 ---
 
-## Hybrid / Miscellaneous
+### iCook After School — Program Operations & Management
+
+<details><summary><strong>Dates</strong></summary><p>September 2022 – March 2024</p></details>
+<details><summary><strong>Context</strong></summary><p>Managing after-school programming across a large network of schools required coordination across curriculum, instruction, staffing, employee training, scheduling, school relationships, and internal operations.</p></details>
+<details open><summary><strong>Solution</strong></summary><p>Managed and supported programming across dozens of partner schools, including hiring, onboarding, training, and coordinating 50+ contracted teachers. Developed curriculum and lesson plans, taught K–12 programming, managed class scheduling and student registration, and supported payroll, invoicing, and relationships with partner schools. Also spearheaded development of an employee web portal using HTML and Wix dynamic-page infrastructure to give instructors centralized access to the information and resources needed for their work.</p></details>
+<details open><summary><strong>Skills</strong></summary><p>Program management, curriculum design, teaching, hiring, employee management, onboarding and training, workforce coordination, school partnerships, scheduling, operations management, HTML, Wix, employee portal design</p></details>
 
 ---
 
