@@ -1,6 +1,5 @@
 # Clients
 
-
 # Client Project Snapshot (By Skill Area)
 
 ## Excel & VBA Systems (Automation + Operations Tools)
@@ -8,9 +7,12 @@
 **Category Skills:**
 Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF generation, dashboard design, KPI modeling, workflow automation, data architecture, reporting systems, multi-sheet synchronization, financial modeling, user-focused UI design, conditional formatting, dynamic dropdowns, data validation
 
+<details>
+<summary><strong>View Clients</strong></summary>
+
 ### Sargeant Grain — Excel Operations System
 
-*March 2025 – Present | 400+ Hours*
+March 2025 – Present | 400+ Hours
 
 **Context:** Grain silo operations relied on expensive, inflexible software and manual processes tied to physical equipment (truck scale, moisture tester).
 
@@ -18,9 +20,11 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 
 **Skills:** Excel, VBA, WinWedge integration, Outlook automation, hardware-software integration, workflow system design
 
+---
+
 ### Atomic Unit
 
-*June 2026*
+June 2026
 
 **Context:** Client needed to manage event data across multiple categorized views while allowing edits from any location without breaking consistency.
 
@@ -28,9 +32,11 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 
 **Skills:** Excel, VBA, multi-sheet synchronization, data architecture
 
+---
+
 ### Primetime Window & Gutter Cleaning
 
-*March 2026 | ~10 Hours*
+March 2026 | ~10 Hours
 
 **Context:** A $2M+ home services company needed a simple way to track daily performance and measure progress toward revenue goals.
 
@@ -38,15 +44,19 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 
 **Skills:** Excel, VBA, dashboard design, KPI modeling
 
+---
+
 ### Bailey Bee
 
-*January 2026*
+January 2026
 
 **Context:** Client wanted a polished, customer-facing budgeting tool for digital sale.
 
 **Solution:** Designed an Excel-based budgeting system with customizable categories, monthly tracking, and a visual dashboard for financial summaries.
 
 **Skills:** Excel, financial modeling, UI design for end users
+
+</details>
 
 ---
 
@@ -55,9 +65,12 @@ Excel, VBA, Microsoft Outlook integration, WinWedge hardware integration, PDF ge
 **Category Skills:**
 Airtable, relational database design, workflow automation, email automations, JavaScript (Airtable scripting/automation), API integrations, Make.com, third-party integrations (Shopify, Bexio, Clockify), MiniExtensions, interface design, forms, CRM architecture, task management systems, data linking, user access control
 
+<details>
+<summary><strong>View Clients</strong></summary>
+
 ### Fortune Wigs
 
-*November 2025 – May 2026*
+November 2025 – May 2026
 
 **Context:** Consignment and repair orders followed complex, non-standard workflows that did not fit cleanly within Shopify’s native structure.
 
@@ -65,9 +78,11 @@ Airtable, relational database design, workflow automation, email automations, Ja
 
 **Skills:** Airtable, Shopify (SyncBase), workflow automation, eCommerce systems
 
+---
+
 ### Grassroots Unwired
 
-*March 2026 | 10–20 Hours*
+March 2026 | 10–20 Hours
 
 **Context:** Nonprofit-focused organization needed a centralized system to track relationships, communications, and outreach across partners, contacts, and events.
 
@@ -75,9 +90,11 @@ Airtable, relational database design, workflow automation, email automations, Ja
 
 **Skills:** Airtable, JavaScript, Google Calendar integration, email parsing/automation, CRM design
 
+---
+
 ### Bryant Electric / Palmetto Plumbing / Classic Air
 
-*December 2025 – Present | 30+ Hours*
+December 2025 – Present | 30+ Hours
 
 **Context:** Multi-service construction company needed a structured, step-by-step pipeline to guide different employees through interdependent project stages.
 
@@ -85,9 +102,11 @@ Airtable, relational database design, workflow automation, email automations, Ja
 
 **Skills:** Airtable, workflow system design, interface design, email automation
 
+---
+
 ### Southwest Geotechnical
 
-*June 2025 – Present*
+June 2025 – Present
 
 **Context:** Existing Excel/VBA system was difficult for field employees to use and required a more intuitive interface for submitting jobs and tracking testing workflows.
 
@@ -95,9 +114,11 @@ Airtable, relational database design, workflow automation, email automations, Ja
 
 **Skills:** Airtable, MiniExtensions, system migration, UX simplification
 
+---
+
 ### Kyramarios Digital Marketing & Design
 
-*December 2025 – Present | ~15 Hours*
+December 2025 – Present | ~15 Hours
 
 **Context:** Client needed to eliminate manual invoicing workflows tied to employee time tracking.
 
@@ -105,15 +126,19 @@ Airtable, relational database design, workflow automation, email automations, Ja
 
 **Skills:** Airtable, Make.com, Clockify, Bexio, API integrations, automation pipelines
 
+---
+
 ### Various Clients (Airtable Training & Consulting)
 
-*2025 – Present*
+2025 – Present
 
 **Context:** Clients needed to quickly learn Airtable for job preparation or business implementation.
 
 **Solution:** Delivered tailored tutorials and strategic guidance on building scalable Airtable systems.
 
 **Skills:** Airtable, training, solution design
+
+</details>
 
 ---
 
@@ -122,9 +147,12 @@ Airtable, relational database design, workflow automation, email automations, Ja
 **Category Skills:**
 Google Sheets, Google Apps Script, API integrations, dynamic array formulas, FILTER/QUERY logic, scheduling systems, automation triggers, data synchronization, dashboard design, conditional formatting, dropdown systems, UX design in spreadsheets, real-time data views
 
+<details>
+<summary><strong>View Clients</strong></summary>
+
 ### Sargeant Grain — Google Sheets Operations Ecosystem
 
-*2025 – Present (parallel to Excel system)*
+2025 – Present (parallel to Excel system)
 
 **Context:** Operations outside of ticketing required coordination across inventory, task management, and real-time external data.
 
@@ -132,9 +160,11 @@ Google Sheets, Google Apps Script, API integrations, dynamic array formulas, FIL
 
 **Skills:** Google Sheets, Google Apps Script, API integration, complex prioritization algorithm design, multi-dashboard systems
 
+---
+
 ### Agence Centurion
 
-*May – September 2025*
+May – September 2025
 
 **Context:** Growing cleaning company needed to replace paper-based scheduling with a scalable digital system usable by non-technical staff.
 
@@ -142,9 +172,11 @@ Google Sheets, Google Apps Script, API integrations, dynamic array formulas, FIL
 
 **Skills:** Google Sheets, Google Apps Script, scheduling systems, conflict detection logic, UX design
 
+---
+
 ### Sweet Pea Catering
 
-*May 2026*
+May 2026
 
 **Context:** Weekly prep planning was manual, time-consuming, and error-prone.
 
@@ -152,15 +184,19 @@ Google Sheets, Google Apps Script, API integrations, dynamic array formulas, FIL
 
 **Skills:** Google Sheets, Google Apps Script, process automation
 
+---
+
 ### YellowTelescope
 
-*June – September 2025 (+ March 2026 follow-up)*
+June – September 2025 (+ March 2026 follow-up)
 
 **Context:** Conference organizers needed a flexible way to assign seating based on participant attributes and event constraints.
 
 **Solution:** Created an algorithm-driven seating system that generates both visual layouts and structured participant assignments, with adjustable inputs for table configurations.
 
 **Skills:** Google Sheets, algorithm design, data visualization
+
+</details>
 
 ---
 
@@ -169,9 +205,12 @@ Google Sheets, Google Apps Script, API integrations, dynamic array formulas, FIL
 **Category Skills:**
 Google Sheets, Excel, Canva, data reconstruction, chart design, brand-standard formatting, visual storytelling, presentation design, AI-assisted data extraction
 
+<details>
+<summary><strong>View Clients</strong></summary>
+
 ### RocketBlocks
 
-*April 2025 – Present*
+April 2025 – Present
 
 **Context:** Client required accurate recreation of charts from image sources for presentations, often without access to original datasets.
 
@@ -179,9 +218,11 @@ Google Sheets, Excel, Canva, data reconstruction, chart design, brand-standard f
 
 **Skills:** Google Sheets, Excel, Canva, data reconstruction, visualization design
 
+---
+
 ### Various Short-Term Clients
 
-*2025 – Present*
+2025 – Present
 
 **Context:** Needed fast-turnaround charts for presentations with minimal input data.
 
@@ -189,16 +230,23 @@ Google Sheets, Excel, Canva, data reconstruction, chart design, brand-standard f
 
 **Skills:** Excel, Google Sheets, rapid data modeling, visualization
 
+</details>
+
 ---
 
 ## Hybrid / Miscellaneous
 
+<details>
+<summary><strong>View Clients</strong></summary>
+
 ### Dr. Brandie Keates / The Bloom Philosophy
 
-*November 2025 – February 2026*
+November 2025 – February 2026
 
 **Context:** Client needed better organization of media assets and polished external-facing materials.
 
 **Solution:** Structured media tracking in Google Sheets and contributed to the design of a media kit and resource documents.
 
 **Skills:** Google Sheets, data organization, visual design
+
+</details>
